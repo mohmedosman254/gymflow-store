@@ -34,3 +34,7 @@ Before launch:
 6. Test on real phones, browsers, accessibility tools and a staging environment.
 
 **Security:** never put API keys, payment secrets, private tokens, or database credentials in frontend JavaScript or commit them to this repository.
+
+
+## Backend foundation (in progress)
+A Cloudflare Workers + D1 API foundation is available in [`api/`](api/README.md). It includes a product catalog endpoint, server-calculated order totals, order storage, and token-protected admin API routes. It is not deployed or connected to the storefront yet. Follow `api/README.md` to provision D1 and configure Worker secrets. Do not accept real customer orders until the backend, storefront integration, admin interface, shipping, payment instructions, and launch safeguards are complete.
