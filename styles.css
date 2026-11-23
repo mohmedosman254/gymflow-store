@@ -47,3 +47,116 @@
 .site-footer .brand-mark{border-radius:8px}
 @media(max-width:900px){.champions-strip{grid-template-columns:1fr 1fr}.champions-copy{grid-column:1/-1}}
 @media(max-width:680px){.hero{min-height:auto;padding-top:65px}.hero:after{width:320px;height:320px;right:-20%;top:42%}.champions-strip{grid-template-columns:1fr 1fr;padding-top:30px;padding-bottom:30px}.champions-copy{grid-column:1/-1}.champion-pill{min-height:65px}.hero-art{margin-top:10px}.hero h1{font-size:45px}.shop-section{padding-top:65px}}
+
+/* GYMFLOW storefront visual build — gymnastics equipment only */
+:root{--ink:#06152d;--paper:#071a35;--lime:#a8ff00;--white:#f7fbff;--line:#1d3c60}
+body{background:#071a35;color:#f7fbff}
+.announcement{height:38px;background:#06152d;color:#f7fbff;border-bottom:1px solid #244263;font-size:12px}
+.announcement-dot{background:var(--lime);box-shadow:0 0 12px #a8ff00}
+.site-header{height:88px;background:#041126;color:#fff;border-bottom:1px solid #234263;box-shadow:0 8px 28px #0005}
+.brand-mark{background:var(--lime);color:#06152d;border-color:var(--lime);border-radius:50%;font-style:italic}
+.brand-mark span{color:#06152d}
+.brand-name{color:#fff;font-size:22px;letter-spacing:-1.2px}
+.brand-name>span{color:var(--lime)}
+.brand-name small{color:#9fb1c9}
+.main-nav{color:#e9f1fc}
+.main-nav a:hover{color:var(--lime)}
+.lang-switch,.cart-trigger{color:#fff}
+.cart-trigger b{background:var(--lime);color:#06152d}
+.hero{min-height:650px;background:radial-gradient(ellipse at 50% 42%,#153b67 0,#09264a 43%,#041329 82%);padding:75px clamp(24px,7vw,100px) 55px;grid-template-columns:1fr 1fr}
+.hero-grid{opacity:.16;background-image:linear-gradient(#7db1e6 1px,transparent 1px),linear-gradient(90deg,#7db1e6 1px,transparent 1px);mask-image:linear-gradient(90deg,transparent,black 30%,black)}
+.hero:after{content:"";position:absolute;width:520px;height:520px;border-radius:50%;border:1px solid #a8ff0040;right:9%;top:10%;box-shadow:0 0 0 32px #a8ff0008,0 0 0 72px #a8ff0005}
+.hero-content{max-width:620px}
+.hero h1{font-size:clamp(44px,5.4vw,74px);line-height:1.2;color:#fff}
+.hero h1 em{color:var(--lime)}
+.hero-content>p{color:#d3e0ef;font-size:16px}
+.eyebrow{color:#d7e4f4}
+.eyebrow>span:first-child{background:var(--lime)}
+.btn-primary{background:var(--lime);color:#06152d;border-radius:999px;box-shadow:0 8px 30px #a8ff0030}
+.text-link{color:#fff;border-color:#a8ff0080}
+.hero-stats strong{color:var(--lime)}
+.hero-stats span{color:#bdcce0}
+.hero-art{height:430px}
+.art-panel{width:min(82%,390px);height:365px;border-radius:22px;background:linear-gradient(145deg,#dfffa0,#8bc900);box-shadow:20px 22px 0 #ffffff12,0 25px 75px #0008}
+.athlete-head,.athlete-body,.athlete-arm,.athlete-leg{background:#071a35}
+.art-orbit{border-color:#a8ff0060}
+.floating-tag{border-radius:12px;background:#f7fbff;color:#06152d;box-shadow:8px 8px 0 var(--lime)}
+.hero-cross{color:var(--lime)}
+.hero-side-label{color:#8ba5c4}
+.ticker{background:var(--lime);color:#06152d}
+.champions-strip{background:#06152d;color:#fff;border-top:1px solid #24476e;border-bottom:1px solid #24476e}
+.champions-copy .mini-kicker,.champion-pill b{color:var(--lime)}
+.champions-copy p{color:#b9cbe0}
+.champion-pill{border-color:#315071;background:#0a2344;border-radius:12px}
+.shop-section{background:#071a35;color:#fff;padding-top:90px}
+.section-heading h2{color:#fff}
+.section-heading h2 em{color:var(--lime)}
+.section-heading>p{color:#b9cbe0}
+.eyebrow.dark{color:#b8c9dd}
+.eyebrow.dark>span:first-child{background:var(--lime)}
+.category-tab{border-color:#34506e;color:#e9f1fc;background:#0a2344;border-radius:999px}
+.category-tab.active,.category-tab:hover{background:var(--lime);color:#06152d;border-color:var(--lime)}
+.search-box{border-color:#54708f}
+.search-box input{color:#fff}
+.search-box input::placeholder{color:#9cb1cb}
+.product-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.product-card{background:#f8fafc;color:#08172d;border:1px solid #d8e3ed;border-radius:15px;overflow:hidden;box-shadow:0 12px 30px #0002}
+.product-card:hover{box-shadow:0 18px 38px #0005;transform:translateY(-6px)}
+.product-visual{height:205px;background:linear-gradient(145deg,#fff,#e8eef4)}
+.product-visual:before,.product-visual:after{border-color:#d4e0e9}
+.product-glyph{font-size:78px;color:#0a2b50}
+.product-tag{background:var(--lime);color:#06152d;border-radius:999px}
+.product-meta{color:#6e8298}
+.product-info h3{color:#071a35}
+.product-info p{color:#64758a}
+.sample-price{color:#68798d}
+.add-button{background:#071a35;color:#fff;border-radius:999px}
+.add-button:hover{background:#a8ff00;color:#06152d}
+.catalog-note{color:#9eb3cc}
+.feature-section{background:radial-gradient(ellipse at 80% 40%,#12345b,#06152d 70%);color:#fff}
+.feature-card{background:#0c2748;border:1px solid #294c70;border-radius:14px}
+.feature-card.offset{border-color:#a8ff0080}
+.feature-card>span{color:#a9bfd8}
+.feature-card p{color:#b5c8dc}
+.feature-symbol{color:var(--lime)}
+.feature-copy>p{color:#c0d0e2}
+.btn-outline{border-color:#6c86a2;color:#fff;border-radius:999px}
+.contact-section{background:#071a35}
+.contact-card{background:linear-gradient(120deg,#12345a,#06152d);border:1px solid #315476;border-radius:20px}
+.contact-card h2{color:#fff}
+.contact-card p{color:#c0d0e2}
+.contact-watermark{color:#ffffff08}
+.site-footer{background:#041126;color:#fff;border-color:#254363}
+.site-footer p,.site-footer>span{color:#a9bdd4}
+.footer-brand .brand-mark{background:var(--lime);color:#06152d;border-color:var(--lime)}
+.footer-brand .brand-name{color:#fff}
+.footer-brand .brand-name small{color:#9fb1c9}
+.cart-drawer{background:#f8fafc;color:#06152d}
+.drawer-head{border-color:#d9e3ec}
+.cart-footer{border-color:#d9e3ec}
+.cart-footer p,.cart-row small{color:#64758a}
+.cart-row{border-color:#e2e9ef}
+.cart-empty{color:#64758a}
+.toast{background:var(--lime);color:#06152d;border-radius:999px;font-weight:800}
+@media(min-width:1100px){.product-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:900px){.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){
+ .site-header{background:#041126;color:#fff}
+ .mobile-menu i{background:#fff}
+ .main-nav{background:#06152d;color:#fff;border-color:#254363}
+ .hero{background:radial-gradient(ellipse at 50% 70%,#153b67,#041329 78%);padding:58px 22px 38px}
+ .hero h1{font-size:43px}
+ .hero-content>p{font-size:13px}
+ .hero-art{transform:scale(.82);margin:0 -28px;height:330px}
+ .champions-strip{background:#06152d}
+ .shop-section{padding-top:65px}
+ .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .product-visual{height:145px}
+ .product-info{padding:11px}
+ .product-info h3{font-size:12px}
+ .product-info p{font-size:9px;min-height:66px}
+ .sample-price{font-size:9px}
+ .add-button{font-size:9px}
+ .site-footer{background:#041126}
+}
+@media(max-width:380px){.product-grid{grid-template-columns:1fr}.product-visual{height:190px}}
