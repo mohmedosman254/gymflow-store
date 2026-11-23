@@ -1,0 +1,12 @@
+name = "gymflow-api"
+main = "src/index.js"
+compatibility_date = "2026-11-23"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gymflow-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+SHIPPING_FEE_EGP = "0"
+ALLOWED_ORIGINS = "https://mohmedosman254.github.io"
